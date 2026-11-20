@@ -100,6 +100,9 @@ aside.sidebar h2 { margin: 0 0 14px; font-size: 24px; }
 }
 .pub-title { display: block; font-family: var(--serif); font-size: 21px; font-weight: 600; }
 .pub-venue { display: block; font-size: 15px; font-style: italic; color: var(--muted); }
+.pubs li > span:first-child { flex: 1 1 420px; min-width: 0; }
+.pub-title { line-height: 1.35; }
+.pub-links { display: flex; gap: 0 20px; }
 .pubs a { display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; font-weight: 500; }
 
 /* Team */
@@ -113,6 +116,8 @@ aside.sidebar h2 { margin: 0 0 14px; font-size: 24px; }
 }
 .photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .person b { display: block; font-family: var(--serif); font-size: 22px; font-weight: 600; line-height: 1.4; }
+.person b a { color: var(--ink); text-decoration-color: var(--line); text-underline-offset: 4px; }
+.person b a:hover { color: var(--accent); text-decoration-color: currentColor; }
 .person span { color: var(--muted); font-size: 15px; }
 
 /* Contact */
